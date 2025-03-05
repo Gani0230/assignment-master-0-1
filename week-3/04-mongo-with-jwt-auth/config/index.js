@@ -1,3 +1,3 @@
-const jwtkey = "1234";
-
-module.exports = jwtkey;
+module.exports = {
+    JWT_SECRET: "1234"
+}

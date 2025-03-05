@@ -5,11 +5,11 @@ const {JWT_SECRET} = require("../config");
 function adminMiddleware(req, res, next) {
     // Implement admin auth logic
     // You need to check the headers and validate the admin from the admin DB. Check readme for the exact headers to be expected
-    let t = req.headers.authorization;
+    let t = req.headers.authentication;
     let token = t.split(" ")[1];
     
     try{
-        jwt.verify(token,JWT_SECRET)
+        jwt.verify(token, JWT_SECRET)
         next()
     }
     catch(e){
