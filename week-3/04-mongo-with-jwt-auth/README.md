@@ -59,4 +59,6 @@ You need to use mongodb to store all the data persistently.
   Output: { purchasedCourses: [ { id: 1, title: 'course title', description: 'course description', price: 100, imageLink: 'https://linktoimage.com', published: true }, ... ] }
 
 
-  token - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaEBnbWFpbC5jb20iLCJpYXQiOjE3NDExODUyMjZ9.vMbQpAPMeB4AjHZa9LL0FUiE_2adVgW74gX4igN6H5U
+  admin token - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaEBnbWFpbC5jb20iLCJpYXQiOjE3NDExODUyMjZ9.vMbQpAPMeB4AjHZa9LL0FUiE_2adVgW74gX4igN6H5U
+
+  user token - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDAyMzBAZ21haWwuY29tIiwiaWF0IjoxNzQxMTk1Mzg4fQ.A2i7bQ-DrRECKXO-RPl1SFBtqTOhUdxC1wbNs4QNjvw
