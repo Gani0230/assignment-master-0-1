@@ -7,7 +7,8 @@ function userMiddleware(req, res, next) {
     let t = req.headers.authentication;
     let token = t.split(" ")[1];
     try{
-        jwt.verify(token,JWT_SECRET)
+        const user = jwt.verify(token, JWT_SECRET)
+        req.username = user.username;
         next()
     }
     catch(e){
