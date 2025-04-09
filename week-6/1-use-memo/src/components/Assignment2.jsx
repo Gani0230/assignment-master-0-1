@@ -26,6 +26,7 @@ export function Assignment2() {
         <input type="text" onChange={(e) => {
             setFilter(e.target.value)
         }}></input>
+        
         {filteredSentences.map(word => <div>
             {word}    
         </div>)}
